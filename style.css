@@ -1,0 +1,160 @@
+/*
+RBG DORITOS: 
+LARANJA 1 rgba(254,75,15,255) #fe4b0f
+LARANJA 2 rgba(254,30,10,255) # fe1e0a
+VERMELHO rgba(255,18,9,255) #ff1209
+
+*/
+
+*{
+    margin: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(254,75,15,1) 0%, rgba(254,36,11,1) 50%, rgba(255,18,9,1) 83%);
+    height: 100px;
+    color: white;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: small;
+}
+
+.container_box{
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+}
+
+.publicacao{
+    font-size: x-small;;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 1%;
+    text-align: left;
+    margin: 10px 50px;
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+.posts{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.detalhar{
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:45px;
+    border-width:1px;
+    color:#666666;
+    border-color:#dcdcdc;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(#f9f9f9, #e9e9e9);
+  }
+  
+  .detalhar:hover {
+    background: linear-gradient(#e9e9e9, #f9f9f9);
+  }
+
+footer{
+    margin-top: 3%;
+    background: radial-gradient(circle, rgba(254,75,15,1) 0%, rgba(254,36,11,1) 50%, rgba(255,18,9,1) 83%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+h5{
+    text-size-adjust: 10px;
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal-content{
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.modal-footer-buttons{
+    margin-top: 10px;
+}
+
+.css-input { 
+    border-style:solid; 
+    font-size:17px; 
+    padding:7px; 
+    border-width:2px; 
+    border-radius:5px; 
+    color:#8a8a8a; 
+    background-color:#ffffff; 
+    border-color:#dbdbdb;  
+} 
+
+.css-input:focus { 
+    outline:none; 
+} 
+
+.filtros{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-footer{
+    text-align: start;
+    padding: 8%;
+}
+
+.decisao_candidato{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnEnviar{
+    border-color: #8a8a8a70;
+    border-radius: 5px;
+    background-color:#ffffff;
+}
+
+.btnVoltar{
+    border-color: #8a8a8a70;
+    border-radius: 5px;
+    background-color:#ffffff;
+}
